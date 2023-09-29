@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин за компютърни части</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contacts.css">
+    <script src="JS/contacts.js"></script>
+</head>
+
+<body>
+    <header>
+        <ul class="navbar">
+            <li class="navbar-content"><img class="logo" src="images/images.png"></li>
+            <li class="navbar-content"><a class="navbar-links" href="index.html">Начало</a></li>
+            <li class="navbar-content"><a class="navbar-links" href="about us.html">Повече за нас</a></li>
+            <li class="navbar-content"><a class="navbar-links" href="contacts.html">Контакти</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Свържете се с нас </h2>
+        </div>
+        <div class="row">
+            <div class="col-12-col-md-6">
+                <h2> Работно време</h2>
+                <p>Понеделник-Петък-8-18:00</p>
+                <p>Събода-8-14:00</p>
+                <p>Неделя-Почивен ден</p>
+            </div>
+            <div class="col-12-col-md-7">
+                <h2>Адрес</h2>
+                <p>гр.Бургас-"ул.Калоян" 36</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2941.8913130720725!2d27.461404415695824!3d42.493863234633295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a694b9780a5e3d%3A0x2b05430d2db1f571!2z0YPQuy4g4oCe0KbQsNGAINCa0LDQu9C-0Y_QveKAnCAzNiwgODAwMCDQltC40LvQuNGJ0LXQvSDQutC-0LzQv9C70LXQutGBINCS0YrQt9GA0LDQttC00LDQvdC1LCDQkdGD0YDQs9Cw0YE!5e0!3m2!1sbg!2sbg!4v1594913407425!5m2!1sbg!2sbg"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="col-12">
+                <h1>Изпрати запитване </h1>
+                <form method="GET">
+                    <div class="form-group">
+                        <label for="name">Вашето име</label>
+                        <input type="text" name="name" class="form-control" placeholder="моля въведете името си" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="product">Вашият любим продукт</label>
+                        <select name="name" id="product" class="form-contact">
+                            <option value="видеокарта">видеокарта</option>
+                            <option value="процесор">процесор</option>
+                            <option value="рам памет">РАМ памет</option>
+                            <option value="захранващ блок">захранващ блок</option>
+                            <option value="дънна платка">дънна платка </option>
+                            <option value="мишка и клавиатура">периферия</option>
+                            <option value="монитор">монитор</option>
+                            <option value="хард диск">хард диск</option>
+                          </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Моля въведете запитване</label>
+                        <textarea id="description" name="description" class="form-control"> 
+                    </textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" onclick="window.alert('Изпратено!')">Изпрати</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>За контакт с нас:</p>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <p>Телефонен номер:0883647283</p>
+        </div>
+        <div class="footer-content01">
+            <p>Адрес:</p>
+            <p>Бургас , ул.Калоян 36</p>
+            <p>Фирма:</p>
+            <p>Jar computers</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.cena {
+    font-size: xx-large;
+    color: red;
+}
+
+img {
+    width: 200px;
+}
+
+.grid-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    border: solid;
+}
+
+button {
+    background-color: red;
+    color: white;
+    width: 100px;
+}
+
+button:hover {
+    color: yellow;
+}

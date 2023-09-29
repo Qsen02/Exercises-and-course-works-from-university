@@ -1,0 +1,136 @@
+/*index.html code*/
+
+body {
+    background-color: whitesmoke;
+}
+
+
+/*header*/
+
+.navbar {
+    background-color: blue;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.navbar-content {
+    float: left;
+}
+
+.navbar-links {
+    display: block;
+    color: yellow;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+a:hover {
+    color: red;
+}
+
+.logo {
+    width: 100px;
+}
+
+
+/*main*/
+
+p {
+    text-align: center;
+    font-size: larger;
+}
+
+h1 {
+    text-align: center;
+}
+
+.img01 {
+    border: solid;
+    width: 300px;
+}
+
+.menu {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.menu-list {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.menu-list-type {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    display: block;
+}
+
+.menu-list-type:hover {
+    background-color: grey;
+    color: black;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: gray;
+}
+
+.footer-content {
+    font-size: large;
+    display: inline-block;
+    padding: 0px 0px 0px 550px;
+}
+
+.footer-content p {
+    color: white;
+    margin: 7px;
+    padding: 7px;
+}
+
+.footer-content a {
+    color: blue;
+    margin: 7px;
+    padding: 7px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.footer-content01 {
+    font-size: large;
+    display: inline-block;
+    padding: 0px 0px 0px 250px;
+}
+
+.footer-content01 p {
+    color: white;
+}
+
+.footer-content a:hover {
+    color: yellow;
+}
+
+
+/*about us code*/
+
+h2 {
+    text-align: center;
+}
+
+.img-about-us {
+    width: 550px;
+}
+
+.about-us {
+    margin: 20px;
+    padding: 20px;
+    font-size: x-large;
+    display: flex;
+}

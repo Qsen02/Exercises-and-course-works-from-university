@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+}
+
+.col-12-col-md-6 {
+    float: left;
+}
+
+.form-group {
+    margin: 30px;
+    display: block;
+}
+
+button {
+    width: 100px;
+}
+
+label {
+    display: block;
+    font-size: large;
+}
+
+.form-control {
+    width: 1800px;
+}
+
+.form-control:hover {
+    border-color: aqua;
+}
+
+.form-contact:hover {
+    border-color: aqua;
+}
+
+h1 {
+    display: flex;
+}
+
+iframe {
+    display: flex;
+}
