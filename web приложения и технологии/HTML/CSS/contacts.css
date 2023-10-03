@@ -2,6 +2,12 @@
     text-align: center;
 }
 
+.row {
+    display: center;
+    margin: auto;
+    width: 800px;
+}
+
 .col-12-col-md-6 {
     float: left;
 }
@@ -21,21 +27,29 @@ label {
 }
 
 .form-control {
-    width: 1800px;
+    width: 950px;
 }
 
 .form-control:hover {
-    border-color: aqua;
+    border-color: black;
 }
 
 .form-contact:hover {
-    border-color: aqua;
+    border-color: black;
 }
 
 h1 {
-    display: flex;
+    text-align: center;
 }
 
 iframe {
     display: flex;
+}
+
+.col-12 {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    border: solid black 3px;
+    background-color: lightgray;
 }

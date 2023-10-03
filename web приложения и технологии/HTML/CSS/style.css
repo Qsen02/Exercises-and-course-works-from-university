@@ -2,12 +2,14 @@
 
 body {
     background-color: whitesmoke;
+    margin: auto;
 }
 
 
 /*header*/
 
 .navbar {
+    margin: auto;
     background-color: blue;
     overflow: hidden;
     list-style-type: none;
@@ -55,12 +57,14 @@ h1 {
     list-style-type: none;
     display: grid;
     grid-template-columns: auto auto auto;
+    margin: auto;
 }
 
 .menu-list {
     text-align: center;
     margin: 20px;
     padding: 20px;
+    margin: auto;
 }
 
 .menu-list-type {
@@ -68,11 +72,13 @@ h1 {
     color: black;
     font-size: x-large;
     display: block;
+    margin: auto;
 }
 
 .menu-list-type:hover {
     background-color: grey;
     color: black;
+    width: 200px;
 }
 
 
@@ -86,6 +92,7 @@ footer {
     font-size: large;
     display: inline-block;
     padding: 0px 0px 0px 550px;
+    margin: auto;
 }
 
 .footer-content p {
