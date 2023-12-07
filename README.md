@@ -1,2 +1,2 @@
 # Zadachi i kursovi raboti ot universiteta
- Задачи и курсови работи 
+ Exercise and course works from university. 

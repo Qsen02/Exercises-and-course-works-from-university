@@ -1,1 +1,1 @@
-Курсова работа за сайт на тема - "Магазин за компютърен хардуер и компютърна периферия".
+Course work for site for "Shop for hardware and computer parts".

@@ -1,1 +1,1 @@
-Курсова задача за сравняване на компютърни характеристики (Работа с класове и обекти в c++).
+Course work for compare computer characteristics (Object and classes in c++).
