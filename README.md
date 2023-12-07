@@ -1,2 +1,2 @@
-#Exercise and course works from university
+#University
  Exercise and course works from university. 
