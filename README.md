@@ -1,2 +1,2 @@
 # Zadachi i kursovi raboti ot universiteta
- Exercise and course works from university. 
+ Exercises and course works from university. 
